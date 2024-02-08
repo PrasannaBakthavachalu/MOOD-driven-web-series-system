@@ -1,0 +1,12 @@
+{% extends "common.html" %}
+{% block content %}
+<ul id="navigation">
+    {% for item in arr %}
+        <li style="list-style: none;"><h3>{{ item }}</h3></li>
+    {% endfor %}
+    </ul>
+<br>
+<center>
+<a href="{{url}}"><h3>For More Web Series:</h3></a>
+</center>
+{% endblock %}

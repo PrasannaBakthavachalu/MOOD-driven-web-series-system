@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Cover</title>
+    <style>
+      .button{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {background-color: #100f0f;}
+
+      /* Center the text */
+      .centered {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      
+      /* Add a background image */
+      body {
+        background-image: url("https://raw.githubusercontent.com/samp-suman/movie-recomendation/master/templates/back.jpeg");
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+      
+      /* Style the text */
+      h1 {
+        font-size: 4rem;
+        font-weight: bold;
+        color: #ffffff;
+        text-shadow: 2px 2px #000000;
+        margin-bottom: 1rem;
+      }
+      
+      p {
+        font-size: 2rem;
+        color: #ffffff;
+        text-shadow: 1px 1px #000000;
+      }
+      .button{
+        font-style:oblique ;
+        font-weight: bold;
+        outline-color:red;
+        outline-style:solid;
+        border-radius: 0%;
+        background-color: transparent;
+        
+      }
+      .button:hover {
+        background-color: #ffc324;
+        color: red;
+        transition: 0.7s;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="centered">
+      <h1>WELCOME</h1>
+      <p>MOOD DRIVEN WEB-SERIES SUGGESTION</p>
+      <a href="/form">
+      <h2><button class="button button1">GET STARTED</button></h2>
+    </a>
+    </div>
+  </body>
+</html>
